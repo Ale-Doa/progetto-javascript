@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    cursor: pointer;
+}
+
+.counter {
+    display: grid;
+    grid-template-columns: 175px 175px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 600px;
+    width: auto;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.counter-display {
+    grid-column: span 2;
+    text-align: center;
+}
+
+.reset-button {
+    border-bottom-left-radius: 10px;
+    grid-column: span 2;
+}
+
+.settings-button {
+    border-bottom-right-radius: 10px;
+    grid-column: span 2;
+}
+
+@import '_settings.scss';
