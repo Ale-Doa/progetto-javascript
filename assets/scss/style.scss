@@ -1,3 +1,7 @@
+$primary-color: #F7D6BE;
+$secondary-color: #251100;
+$tertiary-color: #E66021;
+
 * {
     margin: 0;
     padding: 0;
@@ -8,36 +12,29 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
+    background-color: $primary-color;
+    flex-direction: column;
 }
+
 
 button {
     cursor: pointer;
+    color: $secondary-color;
 }
 
-.counter-app {
-    display: grid;
-    grid-template-columns: 175px 175px;
-    border: 1px solid black;
-    border-radius: 10px;
+.title {
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.container {
+    position: relative;
     height: 600px;
-    width: auto;
-    box-shadow: 5px 5px 5px gray;
+    width: 715px;
+    margin-left: 357px;
 }
 
-.counter-display {
-    grid-column: span 2;
-    text-align: center;
-}
-
-.reset-button {
-    border-bottom-left-radius: 10px;
-    grid-column: span 2;
-}
-
-.settings-button {
-    border-bottom-right-radius: 10px;
-    grid-column: span 2;
-}
+@import '_counter';
 
 @import '_settings.scss';
