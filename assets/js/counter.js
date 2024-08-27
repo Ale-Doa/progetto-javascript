@@ -2,6 +2,12 @@
 
 let counterValue = parseInt (localStorage.getItem ('counterValue')) || 0;
 
+const title = document.createElement ('h1');
+title.textContent = 'Amazing counter!'
+title.setAttribute ('class', 'title');
+
+document.body.appendChild (title);
+
 const container = document.createElement ('div');
 container.setAttribute ('class', 'container');
 
