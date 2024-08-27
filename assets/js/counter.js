@@ -2,9 +2,15 @@
 
 let counterValue = parseInt (localStorage.getItem ('counterValue')) || 0;
 
+const container = document.createElement ('div');
+container.setAttribute ('class', 'container');
+
+document.body.appendChild (container);
+
 const counter = document.createElement ('div');
 counter.setAttribute ('class', 'counter');
-document.body.appendChild (counter);
+
+container.appendChild (counter);
 
 const counterDisplay = document.createElement ('div');
 counterDisplay.textContent = counterValue;
@@ -35,7 +41,7 @@ counter.appendChild (settingsButton);
 const settingsContainer = document.createElement ('div');
 settingsContainer.setAttribute ('class', 'settings-container');
 
-document.body.appendChild (settingsContainer);
+container.appendChild (settingsContainer);
 
 const inputField = document.createElement('input');
 inputField.type = 'number';
