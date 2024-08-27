@@ -5,59 +5,67 @@
 
     display: grid;
     grid-template-columns: 175px 175px;
-    background-color: $tertiary-color;
+    background-color: $secondary-color;
     border: 1px solid black;
     border-radius: 10px;
-    height: 600px;
+    height: auto;
     width: auto;
     box-shadow: 5px 5px 5px gray;
 }
 
 .counter-display {
+    font-family: "Gravitas One", serif;
     grid-column: span 2;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: whitesmoke;
+    background-color: #FBE8DB;
     color: $secondary-color;
     border: 2px solid $secondary-color;
     border-radius: 10px;
     margin: 15px;
-    height: 200px;
+    margin-bottom: 15px;
+    height: 220px;
     font-size: 100px;
 
 }
 
 .decrement-button {
+    height: 100px;
     margin: 15px;
     margin-right: 5px;
+    margin-top: 0;
     border-radius: 10px;
     font-size: 50px;
-    border: 2px solid $secondary-color;
+    background-color: $tertiary-color;
 }
  
 .increment-button {
+    height: 100px;
     margin: 15px;
     margin-left: 5px;
+    margin-top: 0;
     border-radius: 10px;
     font-size: 50px;
-    border: 2px solid $secondary-color;
+    background-color: $tertiary-color;
 }
 
 .reset-button {
+    height: 100px;
     border-radius: 10px;
     grid-column: span 2;
     margin: 15px;
     margin-top: 0;
     font-size: 35px;
-    border: 2px solid $secondary-color;
+    background-color: $primary-color;
 }
 
 .settings-button {
+    height: 100px;
     border-radius: 10px;
     grid-column: span 2;
     margin: 15px;
     margin-top: 0;
     font-size: 35px;
-    border: 2px solid $secondary-color;
+    background-color: $primary-color;
 }

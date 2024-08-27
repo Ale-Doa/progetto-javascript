@@ -18,10 +18,12 @@
         font-size: 20px;
         border: 2px solid $secondary-color;
         border-radius: 30px;
+        background-color: $tertiary-color;
     }
 
     input {
-        font-size: 20px;
+        font-size: 15px;
+        font-family: "Gravitas One", serif;
     }
 
     .input-field {

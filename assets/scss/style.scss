@@ -17,13 +17,15 @@ body {
     flex-direction: column;
 }
 
-
 button {
+    font-family: "Fascinate", system-ui;
     cursor: pointer;
     color: $secondary-color;
 }
 
 .title {
+    font-family: "Fascinate", system-ui;
+    color: $secondary-color;
     margin-bottom: 50px;
     font-size: 50px;
 }
@@ -34,6 +36,10 @@ button {
     width: 715px;
     margin-left: 357px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
 
 @import '_counter';
 

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Fascinate&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -14,11 +16,14 @@ body {
 }
 
 button {
+  font-family: "Fascinate", system-ui;
   cursor: pointer;
   color: #251100;
 }
 
 .title {
+  font-family: "Fascinate", system-ui;
+  color: #251100;
   margin-bottom: 50px;
   font-size: 50px;
 }
@@ -36,60 +41,68 @@ button {
   left: 0;
   display: grid;
   grid-template-columns: 175px 175px;
-  background-color: #E66021;
+  background-color: #251100;
   border: 1px solid black;
   border-radius: 10px;
-  height: 600px;
+  height: auto;
   width: auto;
   box-shadow: 5px 5px 5px gray;
 }
 
 .counter-display {
+  font-family: "Gravitas One", serif;
   grid-column: span 2;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: whitesmoke;
+  background-color: #FBE8DB;
   color: #251100;
   border: 2px solid #251100;
   border-radius: 10px;
   margin: 15px;
-  height: 200px;
+  margin-bottom: 15px;
+  height: 220px;
   font-size: 100px;
 }
 
 .decrement-button {
+  height: 100px;
   margin: 15px;
   margin-right: 5px;
+  margin-top: 0;
   border-radius: 10px;
   font-size: 50px;
-  border: 2px solid #251100;
+  background-color: #E66021;
 }
 
 .increment-button {
+  height: 100px;
   margin: 15px;
   margin-left: 5px;
+  margin-top: 0;
   border-radius: 10px;
   font-size: 50px;
-  border: 2px solid #251100;
+  background-color: #E66021;
 }
 
 .reset-button {
+  height: 100px;
   border-radius: 10px;
   grid-column: span 2;
   margin: 15px;
   margin-top: 0;
   font-size: 35px;
-  border: 2px solid #251100;
+  background-color: #F7D6BE;
 }
 
 .settings-button {
+  height: 100px;
   border-radius: 10px;
   grid-column: span 2;
   margin: 15px;
   margin-top: 0;
   font-size: 35px;
-  border: 2px solid #251100;
+  background-color: #F7D6BE;
 }
 
 .settings-container {
@@ -111,9 +124,11 @@ button {
   font-size: 20px;
   border: 2px solid #251100;
   border-radius: 30px;
+  background-color: #E66021;
 }
 .settings-container input {
-  font-size: 20px;
+  font-size: 15px;
+  font-family: "Gravitas One", serif;
 }
 .settings-container .input-field {
   margin-top: 100px;
