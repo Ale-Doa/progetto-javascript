@@ -28,67 +28,6 @@ button {
     margin-left: 357px;
 }
 
-.counter {
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    display: grid;
-    grid-template-columns: 175px 175px;
-    background-color: $tertiary-color;
-    border: 1px solid black;
-    border-radius: 10px;
-    height: 600px;
-    width: auto;
-    box-shadow: 5px 5px 5px gray;
-}
-
-.counter-display {
-    grid-column: span 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: whitesmoke;
-    border: 2px solid $secondary-color;
-    border-radius: 10px;
-    margin: 15px;
-    height: 200px;
-    font-size: 100px;
-
-}
-
-.decrement-button {
-    margin: 15px;
-    margin-right: 5px;
-    border-radius: 10px;
-    font-size: 50px;
-    border: 2px solid $secondary-color;
-}
- 
-.increment-button {
-    margin: 15px;
-    margin-left: 5px;
-    border-radius: 10px;
-    font-size: 50px;
-    border: 2px solid $secondary-color;
-}
-
-.reset-button {
-    border-radius: 10px;
-    grid-column: span 2;
-    margin: 15px;
-    margin-top: 0;
-    font-size: 35px;
-    border: 2px solid $secondary-color;
-}
-
-.settings-button {
-    border-radius: 10px;
-    grid-column: span 2;
-    margin: 15px;
-    margin-top: 0;
-    font-size: 35px;
-    border: 2px solid $secondary-color;
-}
+@import '_counter';
 
 @import '_settings.scss';
