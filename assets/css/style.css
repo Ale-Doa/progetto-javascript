@@ -140,7 +140,6 @@ button {
 @media screen and (orientation: portrait) {
   .title {
     margin-top: 10%;
-    font-size: 40px;
   }
   .container {
     height: 900px;
@@ -166,5 +165,10 @@ button {
   .settings-container button {
     margin: auto;
     width: 260px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 30px;
   }
 }
