@@ -136,3 +136,35 @@ button {
 .settings-container .step-input {
   margin-top: 15px;
 }
+
+@media screen and (orientation: portrait) {
+  .title {
+    margin-top: 10%;
+    font-size: 40px;
+  }
+  .container {
+    height: 900px;
+    width: 350px;
+    margin: auto;
+  }
+  .settings-container {
+    position: absolute;
+    top: 610px;
+    left: 0;
+    width: 352px;
+    margin: 0;
+    align-items: center;
+    justify-content: start;
+    height: auto;
+  }
+  .settings-container .input-field {
+    margin-top: 40px;
+  }
+  .settings-container .step-input {
+    margin-bottom: 40px;
+  }
+  .settings-container button {
+    margin: auto;
+    width: 260px;
+  }
+}
