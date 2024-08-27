@@ -1,3 +1,5 @@
+//DOM manipulation
+
 let counterValue = parseInt (localStorage.getItem ('counterValue')) || 0;
 
 const counter = document.createElement ('div');
@@ -46,10 +48,13 @@ setValueButton.textContent = 'Set Value';
 const stepInput = document.createElement ('input');
 stepInput.type = 'number';
 stepInput.placeholder = 'Set step value';
+stepInput.setAttribute ('class', 'step-input');
 
 settingsContainer.appendChild (inputField);
 settingsContainer.appendChild (stepInput);
 settingsContainer.appendChild (setValueButton);
+
+//Function
 
 settingsButton.addEventListener('click', () => {
     settingsContainer.style.display = settingsContainer.style.display === 'none' ? 'flex' : 'none';

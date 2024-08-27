@@ -1,7 +1,30 @@
 .settings-container {
     display: none;
-}
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    width: auto;
+    margin-left: 15px;
 
-.settings-container-block {
-    display: flex;
+    button {
+        margin-bottom: 30px;
+        height: 50px;
+        width: 100%;
+        font-size: 20px;
+        border: 2px solid $secondary-color;
+        border-radius: 30px;
+    }
+
+    input {
+        font-size: 20px;
+    }
+
+    .input-field {
+        margin-top: 100px;
+    }
+
+    .step-input {
+        margin-top: 15px;
+    }
 }
