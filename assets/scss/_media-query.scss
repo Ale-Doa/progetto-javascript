@@ -39,6 +39,29 @@
 @media screen and (max-width: 500px) {
 
     .title {
-        font-size: 30px;
+        text-align: center;
+    }
+
+    .container {
+        width: 300px;
+    }
+
+    .counter {
+        grid-template-columns: 150px 150px;
+
+        button {
+            height: 90px;
+        }
+    }
+
+    .counter-display {
+        height: 180px;
+    }
+
+    .settings-container {
+        position: absolute;
+        top: 530px;
+        left: 0;
+        width: 302px;
     }
 }
