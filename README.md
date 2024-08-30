@@ -1,8 +1,6 @@
-<p style="float: right"; margin-left="10px;">
-   <img src="assets/img/Amazing-counter.PNG" alt="immagine del counter" width="auto">
-</p>
-
 # Amazing Counter
+
+![Amazing-counter](assets/img/Amazing-counter.PNG)
 
 Benvenuto nel progetto Amazing Counter! Questa è una semplice applicazione JavaScript che permette agli utenti di incrementare, decrementare e resettare un contatore. Gli utenti possono anche impostare un valore iniziale e un valore di incremento attraverso un pannello di
 impostazioni. Il valore corrente del contatore viene salvato nella memoria locale del browser (localStorage), quindi persiste anche dopo il riavvio della pagina.
