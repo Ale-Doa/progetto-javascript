@@ -23,3 +23,8 @@ impostazioni. Il valore corrente del contatore viene salvato nella memoria local
 ## Come installare e eseguire
 
 Non è necessaria alcuna installazione. Basta aprire il file index.html in un browser compatibile con JavaScript e l'applicazione sarà pronta per l'uso.
+
+## Links
+
+- [Amazing-Counter](https://contatore-javascript.netlify.app/)
+- [My-Portfolio](https://doatialessandroportofolio.netlify.app/)
