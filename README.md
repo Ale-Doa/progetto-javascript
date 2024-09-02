@@ -17,10 +17,10 @@ impostazioni. Il valore corrente del contatore viene salvato nella memoria local
 1. Incrementa/Decrementa: Fai clic sui pulsanti + o - per cambiare il valore del contatore.
 2. Resetta il Contatore: Fai clic sul pulsante Reset per riportare il contatore a 0.
 3. Imposta Valori Personalizzati:
-<div style="display: flex; align-items: center;">
-<p>- Premi il pulsante Settings per aprire il pannello delle impostazioni.
-   - Imposta un valore iniziale nel campo "Set initial value".
-   - Imposta un valore di passo nel campo "Set step value".
+<div style="display: flex; align-items: center; flex-direction: raw;">
+<p>- Premi il pulsante Settings per aprire il pannello delle impostazioni. <br>
+   - Imposta un valore iniziale nel campo "Set initial value". <br>
+   - Imposta un valore di passo nel campo "Set step value". <br>
    - Premi Set Value per applicare le impostazioni.</p>
 
    <img src="assets/img/settings.PNG">
